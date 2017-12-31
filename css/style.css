@@ -1,0 +1,199 @@
+/* fonts:
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*Colors:
+red: #EF233C
+blue: #2B2D42
+light blue: #8D99AE
+off white: #EDF2F4
+*/
+
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: monospace, Courier;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.content-wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-style: black inset;
+}
+
+/* Header and footer */
+
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+/*header*/
+
+header h1, header h2 {
+    color: #EDF2F4;
+    font-family: times;
+    margin: 0;
+}
+
+.img {
+    border-radius: 5%;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*Navigation*/
+
+nav {
+    text-align: center;
+    background: #2B2D42;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: monospace;
+    color: white; 
+}
+
+/*Tech Exp.*/
+
+.tech-desc p:first-of-type {
+    margin-top: 0;
+}
+
+.tech-desc {
+    margin-bottom: 25px;
+}
+
+/* Work Exp. */
+.work {
+    background: #EDF2F4;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/* Education */
+.education {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+                 url(../images/clock.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+/* footer and contact info */
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #8D99AE;
+    size: 15px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .img {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
